@@ -106,4 +106,4 @@ GIT
                 recupere du travail en ligne vers le local
 
 
-    
+    Git clone = ca permet de dupliquer un repertoire ou un projet depuis githubb
