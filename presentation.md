@@ -1,109 +1,63 @@
-                                                                    GIT & GITHUB
-                                            GIT permet entrée ligne de code "logiciel de controle de version"
+                                                            1.1- de GitHub
+Plateforme collaborative pour dev, plus grand espace de stockage de travaux collaborative dans le monde!
+GitHub en lui-meme m'est plus rien de plus q'un reseau social comme fb.
+Vous construisez un profil, vous y deposez des projets a partager et vous vous connectez avec d'autre utilisateurs
+en suivant leurs comptes. Meme si la plupart des utilisateurs y deposent des projets de programmes ou de code,
+rien ne vous empeche d'y placer des textes ou tout type de fichier a presenter dans vos repertoires de projets.
 
+1.2- de Git
+Git est un logiciel de controle de version, ce qui signifie qu'il gere les modifications d'un projet sans ecraser n'importe
+quelle partie du projet.
 
+2- Lexique de de Git et GitHub
+2.1 Vocabulaire
+**ligne de commande: le programme de l'ordinateur que nous utilisons pour entrer des commandes Git. Sur MacOS on parle de 
+Terminal et sur PC  c'est un programme non-natif que vous telecharger lorsque vous telecharger Git pour la premiere fois.
 
-GITHUB:
-      
-         hub le plus grand stockage de travaux colaborative dans le monde 
-        "en lui meme un reseaux sociale pour le travaille tres utiliser par les developeur "
-        comme tout reseaux social on peut y fairte un profile y deposer nos projet, c'est projet on peut les partager ou non avec d'autres utilisateur et suivre les compte des autres personne 
+**Depot: Un repertoire ou de l'espace de stockage ou vos projets peuvent vivre.
+Les utilisateurs de GitHub raccourcissent ca en "repo" pour "repository". Il peut etre un espace de stockage sur GitHub
+ou un autre hebergeur en ligne. A l'interieur d'un depot, vous pouvez conserver des fichiers de codes, des fichiers txt
+des images.
 
+**Controle de version: Fondamentalement, l'objectif pour lequel Git a ete concu. Quand vous avez un fichier Word, vous 
+l' ecrasez a chaque fois que vous sauvgrardez plusieur versions. Avec Git, vous n'est plus oblige de faire ca. Git conserve
+des "instantanes" de chaque point dans l'historique d'un projet, de sorte que vous ne pouvez jamais le perdre ou l'ecraser.
 
-GIT 
+**Commit: c'est la commande qui donne a git toute puissance.
+Quand vous committez, vous prenez un instantane, une photo de votre depot a ce stade vous donnant un point de controle
+que vous pouvez ensuite revaluer ou restaurer votre projet a un etat precedent.
 
-    " Logiciel de controle de version"
-    est un logiciel a ne pas travailler a 2 sur la meme page il riquerais d'ecraser 
+**Branche: Comment plusieurs personnes travaillant sur un projet en meme temps sans que Git ne s'embrouille?
+Habituellement, elle se debranchent du projet principal avec leur propres versions completes, des modifications qu'elles
+ont chacune produites de leur cote. Apres avoir termine, il est temps de fusionner cette branche pour la ramener vers
+la branche master, le repertoire principal du projet.
 
+2.2 Commandes specifiques Git 
 
-    GITHUB 
+git init: inialise un nouveau depot git, vous permet executer les commandes Git qui suivent.
 
-         vocabulaire "ligne de commande,les mettre sur un programme d'ordinateur dans lequelle en rentre les commande GIT" Mac terminale les autre microsoft "logo microsoft taper c il propose"
-        les ligne de commande de GIT on peut les utiliser que si on as telecharger GIT 
+git config: raccourci pour configurer, ceci est tout particulierement utile quand vous parametrez Git pour la premiere fois indentifiant et mot d'utilisateur.
 
+git help: oublie une commande? pour afficher les 21 commande de git.
 
+git status: verifie le statut de votre repo. Voir les fichiers et quelle sont les modifications a commiter et sur quelle branche
+ou repo vous etes en train de travailler.
 
+git add: ceci n'ajoute pas des fichiers dans votre repo, Au lieu de cela, cela porte de nouveaux fichiers a l'attestation de Git.
+Apres avoir ajoute des fichiers, ils dont inclus dans les instantanes du depot Git.
 
-    Un depot
+git commit: la commande la plus importante de Git. Apres avoir effectue toute sorte de modification vous entrez ca afin de prendre
+un instantanes du depot. le mettre en memoire. On ecrit ca sous la forme de git commit -m 'votre message'. Le -m indique que 
+la section suivante de la commande devrait etre lu comme in message.
 
-        "un repertoire ou espace de stockage dedié a un projet!" 
-        on peut le sauvgarder soit en ligne soit en local et il peut contenir tout types de contenue 
-        le controle de version que propose GIT c'est ceux pourquoi GIT a eté crée 
-        il permet de prendre un instantaté ou de sauvergarder au meme types de ce qu'on as fait avant 
-        en gros quand on prend un instantané le COMMIT la commande qui permet de prendre l'instantané en local de prendre vos modification 
+git branche: Vous travaillez avec plusieurs collaborateurs et vous voulez produire des modification de votre cote? cette commande vous permet de construire une nouvelle branche, ou une chronologie des commits, des modifications et  des ajouts de fichiers qui sont completement les votres. Votre titre va apres la commande. Si vous vouliez creer une nouvelle branche appellee 'chats', vous saisiriez git branche chats.
 
+git checkout: c'est une commande de navigation qui vous permet de vous deplacer vers le repertoire que vous voulez verifier. Vous pouvez utiliser cette commande sous la forme de git checkout master pour regarder la branche master, ou git checkout chats pour regarder une autre branche.
 
-      la branche
-            
-             c'est l'espace personnele sur lequelle on travaille!
-             a chaque foi qu'on commence a travailler un partie d'un projet on recupere la racine d'un projet on la stock sur notre branche on travaille dessus et a la fin quand ca fonctionne on la rebranche sur le tronc commmun.
+git merge: Lorsque vous avez fini de travailler sur une branche, vous pouvez fusionner vos modifications vers la branche master, qui est visible pour tous les collaborateur. git merge chats prendrait toutes les modifications que vous avez apportees a la branche chats et les ajoutera a la brache master.
 
+git push: si vous travaillez sur votre ordinateur en local et voud voulez que vos  commits soient visibles aussi en ligne sur Github, vous  pushez les modifications vers  GitHub avec cette commande.
 
+git  pull: si vous travaillez en local et que vous voulez la version la plus a jour de votre repo pour travailler dessus, vous pullez les modifications provenant de GitHub avec cette commande.
 
-
-     les ligne de commande 
-
-                 GETINIT initialise un nouveaux depots "GIT" OU "repository" 
-                    jusqu'a ce qu'on rentre cette commande notre dossier et un dossier lampda 
-
-
-
-
-     GIT config 
-
-                 Ca permet de configurer ca permet d'entrée ses identifiant GITHUB 
-
-
-
-
-     GITHELP
-
-                Ca affiche les 21 commandes qui sont a votre disposition ( on peut GITHELP INIT)
-
-
-
-    GIT STATUS 
-
-                ca indique sur qu'ell branche on est si les modification on ete sauvvgarder ou combien de modification Reste a sauvegarder 
-
-
-
-    GIT ADD 
-
-                On l'utilise avant les GIT commit ca pemret de faire un point ce qui as ete ajouter de nouveaux le traceur de notre dossier ca lui lance la verif des fichier
-                ajoute les modif aux elements qui seront commit 
-
-
-
-    GIT COMMIT 
-
-                c'est la sauvegarde en local de nos modificationq(git commit= "bla bla bla j'ai modifier ca à cet endroit blallaaa")
-
-    
-
-    GIT BRANCH = 
-
-                utilisé tout seul pour créé crée une branch pour travailler sur une partie du projet         
-
-
-    git checkout= 
-
-                permet de naviguer entre les branches
-
-
-    git marge= 
-
-                permet de fussioner notre branche avec la branche principale du projet (git  merge amine= fusionne la branch sonia avec la branch princiaple )
-
-    
-    git push=
-
-                permet de d'envoyer nos dernier modifications en ligne ( recuperable depuis GITHUB)
-
-    
-    git pull=
-
-                recupere du travail en ligne vers le local
-
-
-    Git clone = ca permet de dupliquer un repertoire ou un projet depuis github
+git clone: permet de dupliquer, cloner un repo existant sur GitHub pour l'avoir en local. La commande git clone doit etre suivit de url de repo correspondant qui copie depuis GitHub direct.        
